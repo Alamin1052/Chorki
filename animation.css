@@ -1,0 +1,45 @@
+body{
+    background-image: linear-gradient(to right bottom, rgb(20, 1, 46), rgb(53, 1, 33));
+    min-height: 100vh;
+}
+
+img{
+    max-width: 250px;
+    margin: auto;
+    animation: chorkifan 4s infinite linear;
+    transition: transform 2s ease;
+}
+
+.chorki{
+    max-width: 350px;
+    text-align: center;
+    margin: 50px auto 0px auto;
+}
+
+img:hover{
+    transform: translateY(50px,);
+}
+
+
+
+@keyframes chorkifan {
+    from{
+        rotate: 0deg;
+    }
+    to{
+        rotate: 360deg;
+    }
+}
+
+.text{
+    font-family: 'Li Ador Noirrit', sans-serif;
+    font-size: 44px;
+     background: -webkit-linear-gradient(right bottom, #fac000, #fa0b6f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 30px;
+
+    text-align: center;
+}
+
+
